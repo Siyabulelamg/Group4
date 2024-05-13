@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Job Hunt</title>
+    <link rel="stylesheet" type="text/css" href="aboutus.css">
+</head>
+<body>
+    <div class="container">
+        <section class="about">
+            <div class="about-content">
+                <h1>About <span>Job Hunt</span></h1>
+                <div class="image-wrapper">
+                    <img src="abouti.jpeg" alt="About Us Image" class="about-image">
+                </div>
+                <p>At Job Hunt, we're passionate about revolutionizing the way freelancing labor services are accessed and delivered in Southern Africa. Our platform serves as a bridge between talented entrepreneurs and savvy customers, fostering a dynamic marketplace for diverse services.</p>
+                <h2>Our Mission</h2>
+                <p>We're on a mission to empower entrepreneurs and uplift communities by providing a convenient, reliable, and accessible platform for showcasing their skills and connecting with customers. In a region where unemployment rates are a pressing concern, Job Hunt offers a solution that promotes economic growth and opportunity.</p>
+                <h2>What We Offer</h2>
+                <p id="offerText" class="offer hidden">Marketing Platform: Job Hunt offers entrepreneurs a powerful marketing platform to showcase their services and skills to a wide audience. Customers can easily browse and order a variety of services through our user-friendly website and mobile application. Our website and mobile app are designed to create an engaging and enjoyable experience for users, making it easy to connect with the services they need.</p>
+                <button class="read-more-btn" onclick="toggleText('offerText')">Read More</button>
+                <h2>Why Choose Job Hunt</h2>
+                <p id="whyText" class="why hidden">Affordability: We understand the importance of affordability, and strive to offer competitive pricing for both entrepreneurs and customers. Our platform is accessible to users across Southern Africa, ensuring that everyone has the opportunity to benefit from our services. With Job Hunt, you can trust that you'll receive high-quality services from skilled and reliable entrepreneurs who are passionate about what they do.</p>
+                <button class="read-more-btn" onclick="toggleText('whyText')">Read More</button>
+                <div class="join-btn-container">
+                    <a href="#" class="join-btn">Join Us Today</a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script>
+        function toggleText(id) {
+            var element = document.getElementById(id);
+            element.classList.toggle("hidden");
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
